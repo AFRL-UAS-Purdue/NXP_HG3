@@ -1,0 +1,8 @@
+-- Install configuration: ""
+-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/launch
+-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/launch/tag_36h11_all.launch.py
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/revanth/nxp_ws/src/nxp_1/config": No such
+  file or directory.
+
+[0m

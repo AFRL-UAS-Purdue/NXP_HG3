@@ -1,0 +1,9 @@
+/home/revanth/nxp_ws/build/nxp_1/CMakeFiles/uninstall.dir
+/home/revanth/nxp_ws/build/nxp_1/CMakeFiles/nxp_1_uninstall.dir
+/home/revanth/nxp_ws/build/nxp_1/CMakeFiles/test.dir
+/home/revanth/nxp_ws/build/nxp_1/CMakeFiles/edit_cache.dir
+/home/revanth/nxp_ws/build/nxp_1/CMakeFiles/rebuild_cache.dir
+/home/revanth/nxp_ws/build/nxp_1/CMakeFiles/list_install_components.dir
+/home/revanth/nxp_ws/build/nxp_1/CMakeFiles/install.dir
+/home/revanth/nxp_ws/build/nxp_1/CMakeFiles/install/local.dir
+/home/revanth/nxp_ws/build/nxp_1/CMakeFiles/install/strip.dir

@@ -1,0 +1,42 @@
+[0.017s] Invoking command in '/home/revanth/nxp_ws/build/nxp_1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/revanth/nxp_ws/build/nxp_1 -- -j12 -l12
+[0.042s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.498s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.629s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.630s] -- Added test 'lint_cmake' to check CMake code style
+[0.631s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.633s] -- Added test 'xmllint' to check XML markup files
+[0.634s] -- Configuring done
+[0.637s] -- Generating done
+[0.638s] -- Build files have been written to: /home/revanth/nxp_ws/build/nxp_1
+[0.657s] Invoked command in '/home/revanth/nxp_ws/build/nxp_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/revanth/nxp_ws/build/nxp_1 -- -j12 -l12
+[0.687s] Invoking command in '/home/revanth/nxp_ws/build/nxp_1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/revanth/nxp_ws/build/nxp_1
+[0.693s] -- Install configuration: ""
+[0.693s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data
+[0.693s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_44_38
+[0.693s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_44_38/metadata.yaml
+[0.693s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_44_38/rosbag2_2022_10_17-10_44_38_0.db3-wal
+[0.693s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_44_38/rosbag2_2022_10_17-10_44_38_0.db3
+[3.933s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_44_38/rosbag2_2022_10_17-10_44_38_0.db3-shm
+[3.933s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_46_54
+[3.933s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_46_54/rosbag2_2022_10_17-10_46_54_0.db3-shm
+[3.933s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_46_54/metadata.yaml
+[3.933s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_46_54/rosbag2_2022_10_17-10_46_54_0.db3-wal
+[3.933s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_46_54/rosbag2_2022_10_17-10_46_54_0.db3
+[6.371s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/launch
+[6.371s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/launch/tag_36h11_all.launch.py
+[6.372s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/ament_index/resource_index/package_run_dependencies/nxp_1
+[6.372s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/ament_index/resource_index/parent_prefix_path/nxp_1
+[6.372s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/environment/ament_prefix_path.sh
+[6.372s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/environment/ament_prefix_path.dsv
+[6.372s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/environment/path.sh
+[6.372s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/environment/path.dsv
+[6.372s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/local_setup.bash
+[6.372s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/local_setup.sh
+[6.372s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/local_setup.zsh
+[6.373s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/local_setup.dsv
+[6.373s] -- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/package.dsv
+[6.373s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/ament_index/resource_index/packages/nxp_1
+[6.373s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/cmake/nxp_1Config.cmake
+[6.373s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/cmake/nxp_1Config-version.cmake
+[6.373s] -- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/package.xml
+[6.377s] Invoked command in '/home/revanth/nxp_ws/build/nxp_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/revanth/nxp_ws/build/nxp_1

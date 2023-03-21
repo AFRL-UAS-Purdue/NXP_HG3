@@ -1,0 +1,6 @@
+[0.025s] Invoking command in '/home/revanth/NXP_HG3-1/nxp_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/revanth/NXP_HG3-1/nxp_ws/build/apriltag_msgs -- -j12 -l12
+[0.041s] [0mCMake Error: The current CMakeCache.txt directory /home/revanth/NXP_HG3-1/nxp_ws/build/apriltag_msgs/CMakeCache.txt is different than the directory /home/revanth/nxp_ws/build/apriltag_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.053s] [0mCMake Error: The source directory "/home/revanth/nxp_ws/src/apriltag_msgs" does not exist.
+[0.053s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.055s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.059s] Invoked command in '/home/revanth/NXP_HG3-1/nxp_ws/build/apriltag_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/revanth/NXP_HG3-1/nxp_ws/build/apriltag_msgs -- -j12 -l12

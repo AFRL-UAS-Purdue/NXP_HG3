@@ -1,0 +1,61 @@
+[0.011s] Invoking command in '/home/revanth/nxp_ws/build/apriltag_ros': AMENT_PREFIX_PATH=/home/revanth/nxp_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/revanth/nxp_ws/install/apriltag_msgs:/home/revanth/nxp_ws/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/revanth/nxp_ws/install/apriltag_msgs/lib:/home/revanth/nxp_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/revanth/nxp_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/revanth/nxp_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/revanth/nxp_ws/install/apriltag/lib/pkgconfig PYTHONPATH=/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/revanth/nxp_ws/build/apriltag_ros -- -j12 -l12
+[0.048s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.328s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.331s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.336s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.431s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.561s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.834s] -- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.930s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.099s] -- Found apriltag_msgs: 2.0.0 (/home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake)
+[1.144s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.431s] -- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+[1.455s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.595s] -- Configuring done
+[1.657s] -- Generating done
+[1.663s] -- Build files have been written to: /home/revanth/nxp_ws/build/apriltag_ros
+[1.738s] [35m[1mConsolidate compiler generated dependencies of target utils[0m
+[1.740s] [35m[1mConsolidate compiler generated dependencies of target apriltag_node[0m
+[1.778s] [ 16%] [32mBuilding CXX object CMakeFiles/utils.dir/src/tag_functions.cpp.o[0m
+[1.810s] [ 33%] [32mBuilding CXX object CMakeFiles/apriltag_node.dir/rclcpp_components/node_main_apriltag_node.cpp.o[0m
+[2.299s] [ 50%] [32m[1mLinking CXX static library libutils.a[0m
+[2.337s] [ 50%] Built target utils
+[2.351s] [35m[1mConsolidate compiler generated dependencies of target AprilTagNode[0m
+[2.390s] [ 66%] [32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o[0m
+[4.872s] [ 83%] [32m[1mLinking CXX executable apriltag_node[0m
+[5.009s] [ 83%] Built target apriltag_node
+[9.129s] [100%] [32m[1mLinking CXX shared library libAprilTagNode.so[0m
+[9.629s] [100%] Built target AprilTagNode
+[9.639s] Invoked command in '/home/revanth/nxp_ws/build/apriltag_ros' returned '0': AMENT_PREFIX_PATH=/home/revanth/nxp_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/revanth/nxp_ws/install/apriltag_msgs:/home/revanth/nxp_ws/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/revanth/nxp_ws/install/apriltag_msgs/lib:/home/revanth/nxp_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/revanth/nxp_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/revanth/nxp_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/revanth/nxp_ws/install/apriltag/lib/pkgconfig PYTHONPATH=/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/revanth/nxp_ws/build/apriltag_ros -- -j12 -l12
+[9.670s] Invoking command in '/home/revanth/nxp_ws/build/apriltag_ros': AMENT_PREFIX_PATH=/home/revanth/nxp_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/revanth/nxp_ws/install/apriltag_msgs:/home/revanth/nxp_ws/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/revanth/nxp_ws/install/apriltag_msgs/lib:/home/revanth/nxp_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/revanth/nxp_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/revanth/nxp_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/revanth/nxp_ws/install/apriltag/lib/pkgconfig PYTHONPATH=/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/revanth/nxp_ws/build/apriltag_ros
+[9.679s] -- Install configuration: ""
+[9.680s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node
+[9.681s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node" to ""
+[9.681s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+[9.681s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+[9.682s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/lib/libAprilTagNode.so
+[9.688s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_ros/lib/libAprilTagNode.so" to ""
+[9.688s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cfg
+[9.689s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml
+[9.689s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/launch
+[9.689s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/launch/tag_36h11_all.launch.py
+[9.689s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+[9.689s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+[9.689s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+[9.690s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+[9.690s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+[9.690s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+[9.690s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+[9.690s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+[9.690s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+[9.691s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+[9.691s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/package.dsv
+[9.691s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+[9.691s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+[9.691s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+[9.691s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+[9.691s] -- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/package.xml
+[9.694s] Invoked command in '/home/revanth/nxp_ws/build/apriltag_ros' returned '0': AMENT_PREFIX_PATH=/home/revanth/nxp_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/revanth/nxp_ws/install/apriltag_msgs:/home/revanth/nxp_ws/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/revanth/nxp_ws/install/apriltag_msgs/lib:/home/revanth/nxp_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/revanth/nxp_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/revanth/nxp_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/revanth/nxp_ws/install/apriltag/lib/pkgconfig PYTHONPATH=/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/revanth/nxp_ws/build/apriltag_ros

@@ -1,0 +1,4 @@
+Invoking command in '/home/revanth/nxp_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/revanth/nxp_ws/build/apriltag_msgs -- -j12 -l12
+Invoked command in '/home/revanth/nxp_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/revanth/nxp_ws/build/apriltag_msgs -- -j12 -l12
+Invoking command in '/home/revanth/nxp_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/revanth/nxp_ws/build/apriltag_msgs
+Invoked command in '/home/revanth/nxp_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/revanth/nxp_ws/build/apriltag_msgs

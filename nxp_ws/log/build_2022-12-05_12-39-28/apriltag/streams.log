@@ -1,0 +1,62 @@
+[0.042s] Invoking command in '/home/revanth/nxp_ws/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/revanth/nxp_ws/build/apriltag -- -j12 -l12
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target apriltag[0m
+[0.112s] [ 80%] Built target apriltag
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target opencv_demo[0m
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target apriltag_demo[0m
+[0.147s] [ 90%] Built target apriltag_python
+[0.149s] [ 95%] Built target opencv_demo
+[0.149s] [100%] Built target apriltag_demo
+[0.166s] Invoked command in '/home/revanth/nxp_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/revanth/nxp_ws/build/apriltag -- -j12 -l12
+[0.283s] Invoking command in '/home/revanth/nxp_ws/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/revanth/nxp_ws/build/apriltag
+[0.289s] -- Install configuration: "Release"
+[0.289s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag.h
+[0.290s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag_math.h
+[0.290s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag_pose.h
+[0.290s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/debug_print.h
+[0.290s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/doubles.h
+[0.290s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[0.290s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/floats.h
+[0.290s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/g2d.h
+[0.290s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/getopt.h
+[0.290s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/homography.h
+[0.291s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_types.h
+[0.291s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8.h
+[0.291s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8x3.h
+[0.291s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8x4.h
+[0.291s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/matd.h
+[0.291s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/math_util.h
+[0.291s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pam.h
+[0.291s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pjpeg.h
+[0.291s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pnm.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/postscript_utils.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pthreads_cross.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/string_util.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/svd22.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/time_util.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/timeprofile.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/unionfind.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/workerpool.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zarray.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zhash.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zmaxheap.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag16h5.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag25h9.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag36h10.h
+[0.292s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag36h11.h
+[0.293s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCircle21h7.h
+[0.293s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCircle49h12.h
+[0.293s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCustom48h12.h
+[0.294s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagStandard41h12.h
+[0.294s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagStandard52h13.h
+[0.294s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so.3.3.0
+[0.294s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so.3
+[0.294s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so
+[0.295s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+[0.295s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+[0.295s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+[0.295s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagConfigVersion.cmake
+[0.295s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/pkgconfig/apriltag.pc
+[0.295s] -- Up-to-date: /home/revanth/.local/lib/python3.10/site-packages/apriltag.cpython-310-x86_64-linux-gnu.so
+[0.296s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/bin/opencv_demo
+[0.296s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/bin/apriltag_demo
+[0.296s] Invoked command in '/home/revanth/nxp_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/revanth/nxp_ws/build/apriltag

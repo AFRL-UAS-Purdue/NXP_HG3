@@ -1,0 +1,22 @@
+[  2%] Built target apriltag_msgs__cpp
+[ 12%] Built target apriltag_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_apriltag_msgs
+[ 34%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[ 34%] Built target apriltag_msgs__rosidl_typesupport_c
+[ 44%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[ 55%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[ 65%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[ 76%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[ 76%] Built target apriltag_msgs
+[ 78%] Built target apriltag_msgs__py
+[ 87%] Built target apriltag_msgs__rosidl_generator_py
+[ 95%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[100%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing apriltag_msgs.egg-info/PKG-INFO
+writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+writing top-level names to apriltag_msgs.egg-info/top_level.txt
+reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_apriltag_msgs_egg

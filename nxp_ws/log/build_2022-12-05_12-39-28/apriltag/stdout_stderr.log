@@ -1,0 +1,58 @@
+[35m[1mConsolidate compiler generated dependencies of target apriltag[0m
+[ 80%] Built target apriltag
+[35m[1mConsolidate compiler generated dependencies of target opencv_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target apriltag_demo[0m
+[ 90%] Built target apriltag_python
+[ 95%] Built target opencv_demo
+[100%] Built target apriltag_demo
+-- Install configuration: "Release"
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag_math.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag_pose.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/debug_print.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/doubles.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/floats.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/g2d.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/getopt.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/homography.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_types.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8x3.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8x4.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/matd.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/math_util.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pam.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pjpeg.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pnm.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/postscript_utils.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pthreads_cross.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/string_util.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/svd22.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/time_util.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/timeprofile.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/unionfind.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/workerpool.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zarray.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zhash.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zmaxheap.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag16h5.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag25h9.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag36h10.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag36h11.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCircle21h7.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCircle49h12.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCustom48h12.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagStandard41h12.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagStandard52h13.h
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so.3.3.0
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so.3
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagConfigVersion.cmake
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/pkgconfig/apriltag.pc
+-- Up-to-date: /home/revanth/.local/lib/python3.10/site-packages/apriltag.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/bin/opencv_demo
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/bin/apriltag_demo

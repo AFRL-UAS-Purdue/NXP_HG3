@@ -1,0 +1,10 @@
+/home/revanth/nxp_ws/build/apriltag/CMakeFiles/apriltag.dir
+/home/revanth/nxp_ws/build/apriltag/CMakeFiles/apriltag_python.dir
+/home/revanth/nxp_ws/build/apriltag/CMakeFiles/apriltag_demo.dir
+/home/revanth/nxp_ws/build/apriltag/CMakeFiles/opencv_demo.dir
+/home/revanth/nxp_ws/build/apriltag/CMakeFiles/edit_cache.dir
+/home/revanth/nxp_ws/build/apriltag/CMakeFiles/rebuild_cache.dir
+/home/revanth/nxp_ws/build/apriltag/CMakeFiles/list_install_components.dir
+/home/revanth/nxp_ws/build/apriltag/CMakeFiles/install.dir
+/home/revanth/nxp_ws/build/apriltag/CMakeFiles/install/local.dir
+/home/revanth/nxp_ws/build/apriltag/CMakeFiles/install/strip.dir

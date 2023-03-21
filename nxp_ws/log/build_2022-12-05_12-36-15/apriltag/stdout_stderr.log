@@ -1,0 +1,120 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Setting build type to 'Release' as none was specified.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.6") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/revanth/nxp_ws/build/apriltag
+[  4%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/apriltag.dir/common/g2d.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/apriltag.dir/common/getopt.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_pose.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/apriltag.dir/common/homography.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x4.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x3.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/apriltag.dir/common/matd.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pam.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg-idct.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pnm.c.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/apriltag.dir/common/pthreads_cross.cpp.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/apriltag.dir/common/string_util.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/apriltag.dir/common/svd22.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/apriltag.dir/common/time_util.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/apriltag.dir/common/unionfind.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/apriltag.dir/common/workerpool.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zarray.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zhash.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zmaxheap.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/apriltag.dir/tag16h5.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/apriltag.dir/tag25h9.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h10.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h11.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle21h7.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle49h12.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCustom48h12.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard41h12.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard52h13.c.o[0m
+[ 80%] [32m[1mLinking CXX shared library libapriltag.so[0m
+[ 80%] Built target apriltag
+[ 85%] [34m[1mGenerating apriltag_py_type.docstring.h[0m
+[ 85%] [34m[1mGenerating apriltag_detect.docstring.h[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o[0m
+[ 92%] [34m[1mGenerating apriltag_pywrap.o[0m
+[ 95%] [32m[1mLinking C executable apriltag_demo[0m
+[ 97%] [34m[1mGenerating apriltag.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] Built target apriltag_python
+[ 97%] Built target apriltag_demo
+[100%] [32m[1mLinking CXX executable opencv_demo[0m
+[100%] Built target opencv_demo
+-- Install configuration: "Release"
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag_math.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag_pose.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/debug_print.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/doubles.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/floats.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/g2d.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/getopt.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/homography.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_types.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8x3.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8x4.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/matd.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/math_util.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pam.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pjpeg.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pnm.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/postscript_utils.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pthreads_cross.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/string_util.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/svd22.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/time_util.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/timeprofile.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/unionfind.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/workerpool.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zarray.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zhash.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zmaxheap.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag16h5.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag25h9.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag36h10.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag36h11.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCircle21h7.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCircle49h12.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCustom48h12.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagStandard41h12.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagStandard52h13.h
+-- Installing: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so.3.3.0
+-- Installing: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so.3
+-- Installing: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so
+-- Installing: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+-- Installing: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+-- Installing: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+-- Installing: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagConfigVersion.cmake
+-- Installing: /home/revanth/nxp_ws/install/apriltag/lib/pkgconfig/apriltag.pc
+-- Installing: /home/revanth/.local/lib/python3.10/site-packages/apriltag.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/revanth/nxp_ws/install/apriltag/bin/opencv_demo
+-- Set runtime path of "/home/revanth/nxp_ws/install/apriltag/bin/opencv_demo" to ""
+-- Installing: /home/revanth/nxp_ws/install/apriltag/bin/apriltag_demo
+-- Set runtime path of "/home/revanth/nxp_ws/install/apriltag/bin/apriltag_demo" to ""

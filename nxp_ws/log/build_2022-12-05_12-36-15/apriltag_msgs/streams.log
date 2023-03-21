@@ -1,0 +1,279 @@
+[0.022s] Invoking command in '/home/revanth/nxp_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/revanth/nxp_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/revanth/nxp_ws/install/apriltag_msgs
+[0.068s] -- The C compiler identification is GNU 11.3.0
+[0.129s] -- The CXX compiler identification is GNU 11.3.0
+[0.137s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.289s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.467s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.564s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.575s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.655s] -- Found std_msgs: 4.2.2 (/opt/ros/humble/share/std_msgs/cmake)
+[1.249s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.018s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.019s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.043s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.043s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.043s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.062s] -- Found PythonExtra: .so  
+[2.114s] -- Configuring done
+[2.146s] -- Generating done
+[2.148s] -- Build files have been written to: /home/revanth/nxp_ws/build/apriltag_msgs
+[2.154s] Invoked command in '/home/revanth/nxp_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/revanth/nxp_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/revanth/nxp_ws/install/apriltag_msgs
+[2.155s] Invoking command in '/home/revanth/nxp_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/revanth/nxp_ws/build/apriltag_msgs -- -j12 -l12
+[2.197s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.209s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.219s] [  4%] Built target ament_cmake_python_copy_apriltag_msgs
+[2.493s] running egg_info
+[2.494s] creating apriltag_msgs.egg-info
+[2.494s] writing apriltag_msgs.egg-info/PKG-INFO
+[2.494s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[2.494s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[2.495s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[2.496s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[2.497s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[2.523s] [  4%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[2.595s] [  4%] Built target apriltag_msgs__cpp
+[2.611s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.611s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.611s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.621s] [ 14%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c.o[0m
+[2.622s] [ 14%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/point__functions.c.o[0m
+[2.624s] [ 17%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection__functions.c.o[0m
+[2.694s] [ 19%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_generator_c.so[0m
+[2.728s] [ 19%] Built target apriltag_msgs__rosidl_generator_c
+[2.739s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.739s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.741s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.965s] [ 27%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[2.965s] [ 29%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[2.966s] [ 31%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[3.156s] [ 34%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o[0m
+[3.165s] [ 36%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[3.166s] [ 38%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o[0m
+[3.182s] [ 40%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/point__type_support.cpp.o[0m
+[3.192s] [ 42%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp.o[0m
+[3.198s] [ 44%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o[0m
+[3.376s] [ 46%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[3.385s] [ 48%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[3.434s] [ 51%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection__type_support_c.cpp.o[0m
+[3.445s] [ 53%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[3.526s] [ 55%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[3.587s] [ 57%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support_c.cpp.o[0m
+[3.594s] [ 59%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/point__type_support.c.o[0m
+[3.610s] [ 61%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_cpp.so[0m
+[3.657s] [ 63%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_c.so[0m
+[3.663s] [ 65%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection__type_support.c.o[0m
+[3.722s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[3.774s] [ 68%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c.o[0m
+[3.795s] [ 68%] Built target apriltag_msgs__rosidl_typesupport_c
+[3.854s] [ 70%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.903s] [ 70%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[4.152s] [ 72%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.236s] [ 74%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.244s] [ 74%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[4.265s] [ 76%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.341s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[4.358s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[4.376s] [ 76%] Built target apriltag_msgs
+[4.392s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.920s] [ 78%] Built target apriltag_msgs__py
+[4.940s] [ 82%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_s.c.o[0m
+[4.940s] [ 82%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_point_s.c.o[0m
+[4.946s] [ 85%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_array_s.c.o[0m
+[5.054s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so[0m
+[5.094s] [ 87%] Built target apriltag_msgs__rosidl_generator_py
+[5.112s] [ 93%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.112s] [ 93%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.112s] [ 93%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.223s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.223s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.231s] [100%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.259s] [100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.260s] [100%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[5.265s] [100%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[5.280s] Invoked command in '/home/revanth/nxp_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/revanth/nxp_ws/build/apriltag_msgs -- -j12 -l12
+[5.380s] Invoking command in '/home/revanth/nxp_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/revanth/nxp_ws/build/apriltag_msgs
+[5.386s] -- Install configuration: ""
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[5.387s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h
+[5.388s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.c
+[5.388s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[5.388s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h
+[5.388s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[5.388s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.c
+[5.388s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[5.388s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.388s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[5.388s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[5.389s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[5.389s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[5.389s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[5.389s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so" to ""
+[5.389s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.390s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.390s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.390s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[5.390s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[5.390s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[5.390s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.390s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[5.390s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.390s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.390s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.390s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.390s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c
+[5.390s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[5.391s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.c
+[5.391s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.c
+[5.391s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[5.391s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[5.391s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.391s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[5.391s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.391s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[5.392s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so" to ""
+[5.392s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.392s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.392s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp
+[5.392s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.392s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[5.392s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[5.392s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
+[5.392s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[5.392s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
+[5.392s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[5.392s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp
+[5.392s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[5.393s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[5.393s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[5.393s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[5.393s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.393s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.393s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.393s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/dds_fastrtps
+[5.393s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[5.393s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.393s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[5.393s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.393s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.394s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.394s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.394s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.394s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.394s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp
+[5.394s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[5.394s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp
+[5.394s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[5.394s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[5.394s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.cpp
+[5.395s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[5.395s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.395s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[5.395s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so" to ""
+[5.395s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[5.395s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[5.396s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.0-py3.10.egg-info
+[5.396s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.0-py3.10.egg-info/SOURCES.txt
+[5.396s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.0-py3.10.egg-info/top_level.txt
+[5.396s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.0-py3.10.egg-info/PKG-INFO
+[5.396s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.0-py3.10.egg-info/dependency_links.txt
+[5.396s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs
+[5.396s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[5.396s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.396s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.396s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.397s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg
+[5.397s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point_s.c
+[5.397s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py
+[5.397s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py
+[5.397s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[5.397s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[5.397s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[5.397s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py
+[5.397s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[5.397s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.398s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.398s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py
+[5.430s] Listing '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...
+[5.430s] Compiling '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py'...
+[5.430s] Listing '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...
+[5.430s] Compiling '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py'...
+[5.430s] Compiling '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py'...
+[5.430s] Compiling '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py'...
+[5.431s] Compiling '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py'...
+[5.435s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.435s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.435s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.435s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.436s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.436s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.436s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[5.436s] -- Set runtime path of "/home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so" to ""
+[5.436s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl
+[5.437s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[5.437s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[5.437s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg
+[5.437s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[5.437s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[5.437s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[5.437s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[5.437s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[5.437s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[5.437s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[5.438s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[5.438s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[5.438s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[5.438s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[5.438s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[5.438s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[5.438s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[5.438s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[5.438s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.439s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.439s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.439s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.439s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.439s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[5.439s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.439s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[5.439s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.439s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.440s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.440s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.440s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[5.440s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.440s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[5.440s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.440s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[5.441s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.441s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.441s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.441s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.441s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.441s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.441s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[5.441s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[5.442s] -- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[5.445s] Invoked command in '/home/revanth/nxp_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/revanth/nxp_ws/build/apriltag_msgs

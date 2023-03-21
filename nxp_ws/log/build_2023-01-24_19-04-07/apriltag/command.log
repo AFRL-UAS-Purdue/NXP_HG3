@@ -1,0 +1,2 @@
+Invoking command in '/home/revanth/NXP_HG3-1/nxp_ws/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/revanth/NXP_HG3-1/nxp_ws/build/apriltag -- -j12 -l12
+Invoked command in '/home/revanth/NXP_HG3-1/nxp_ws/build/apriltag' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/revanth/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/revanth/NXP_HG3-1/nxp_ws/build/apriltag -- -j12 -l12
