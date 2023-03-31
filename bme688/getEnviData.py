@@ -28,26 +28,46 @@ storage.mount(vfs, "/sd")
 bme_spi = busio.SPI(BME_SCK, BME_SDI, BME_SDO)
 bme_cs = digitalio.DigitalInOut(BME_CS)
 bme_sensor = adafruit_bme688.Adafruit_BME688_SPI(bme_spi, bme_cs)
-
-# Open the file
+# Open CSV file for writing
 filename = "/sd/enviData.csv"
-with open(filename, "w") as f:
-    f.write("time,temp_c,humidity,pressure,co2\n")
+try:
+    f = open(filename, "w")
+    f.write("Time,Temperature(C),Humidity(%),Pressure(hPa),CO2(ppm)\n")
+except:
+    print("Error: Failed to create file")
 
-# Read and write data every second
-while True:
-    # Get the current time
-    current_time = time.monotonic()
+# Get data every second and write to CSV file
+try:
+    for i in range(20):
+        try:
+            temp = bme.temperature
+            humidity = bme.humidity
+            pressure = bme.pressure / 100.0
+            gas_resistance = bme.gas_resistance / 1000.0
+            print("Temperature: {:.2f} C".format(temp))
+            print("Humidity: {:.2f} %".format(humidity))
+            print("Pressure: {:.2f} hPa".format(pressure))
+            print("Gas Resistance: {:.2f} kOhms".format(gas_resistance))
+            
+            t = time.localtime()
+            current_time = "{:02d}:{:02d}:{:02d}".format(t[3], t[4], t[5])
+            current_date = "{:02d}-{:02d}-{}".format(t[1], t[2], t[0])
+            f.write("{},{:.2f},{:.2f},{:.2f},{:.2f}\n".format(current_date + " " + current_time, temp, humidity, pressure, gas_resistance))
+            f.flush()
+        except Exception as e:
+            print("Error: Failed to read BME688 sensor data")
+            print(str(e))
+        
+        time.sleep(1)
 
-    # Read the sensor data
-    temp_c = bme_sensor.temperature
-    humidity = bme_sensor.humidity
-    pressure = bme_sensor.pressure
-    co2 = bme_sensor.gas
+except Exception as e:
+    print("Error: Failed to write data to CSV file")
+    print(str(e))
 
-    # Write the data to the file
-    with open(filename, "a") as f:
-        f.write("{},{},{},{},{}\n".format(current_time, temp_c, humidity, pressure, co2))
-
-    # Wait for 1 second
-    time.sleep(1)
+# Close the file and unmount the SD card
+try:
+    f.close()
+    uos.umount("/sd")
+    print("Data saved to", filename)
+except:
+    print("Error: Failed to close file and unmount SD card")
