@@ -1,0 +1,52 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/revanth/NXP_HG3/nxp_ws/build/apriltag_ros/CMakeCache.txt is different than the directory /home/revanth/nxp_ws/build/apriltag_ros where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found apriltag_msgs: 2.0.0 (/home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake)
+-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/revanth/nxp_ws/build/apriltag_ros
+[35m[1mConsolidate compiler generated dependencies of target utils[0m
+[35m[1mConsolidate compiler generated dependencies of target apriltag_node[0m
+[ 33%] Built target utils
+[ 50%] [32mBuilding CXX object CMakeFiles/apriltag_node.dir/rclcpp_components/node_main_apriltag_node.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target AprilTagNode[0m
+[ 83%] Built target AprilTagNode
+[100%] [32m[1mLinking CXX executable apriltag_node[0m
+[100%] Built target apriltag_node
+-- Install configuration: ""
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+-- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/lib/libAprilTagNode.so
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cfg
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/launch
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/launch/tag_36h11_all.launch.py
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+-- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+-- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+-- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+-- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/package.dsv
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/package.xml

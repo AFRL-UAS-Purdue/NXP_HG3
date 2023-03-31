@@ -1,0 +1,575 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (apriltag) JobQueued: {'identifier': 'apriltag', 'dependencies': OrderedDict()}
+[0.000169] (apriltag_msgs) JobQueued: {'identifier': 'apriltag_msgs', 'dependencies': OrderedDict()}
+[0.000193] (nxp_1) JobQueued: {'identifier': 'nxp_1', 'dependencies': OrderedDict()}
+[0.000229] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict([('apriltag', '/home/revanth/NXP_HG3/nxp_ws/install/apriltag'), ('apriltag_msgs', '/home/revanth/NXP_HG3/nxp_ws/install/apriltag_msgs')])}
+[0.000250] (apriltag) JobStarted: {'identifier': 'apriltag'}
+[0.010851] (apriltag_msgs) JobStarted: {'identifier': 'apriltag_msgs'}
+[0.016861] (nxp_1) JobStarted: {'identifier': 'nxp_1'}
+[0.020464] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'cmake'}
+[0.021635] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'build'}
+[0.021668] (apriltag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag', '--', '-j12', '-l12'], 'cwd': '/home/revanth/NXP_HG3/nxp_ws/build/apriltag', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'revanth'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/revanth'), ('OLDPWD', '/home/revanth/NXP_HG3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2368'), ('SYSTEMD_EXEC_PID', '2903'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8756'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'revanth'), ('JOURNAL_STREAM', '8:38341'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'revanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/revanth/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/revanth-XPS-15-7590:@/tmp/.ICE-unix/2883,unix/revanth-XPS-15-7590:/tmp/.ICE-unix/2883'), ('INVOCATION_ID', '5fe84b917ea74b53b42ba5a259098a75'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a46320ff-4206-48f0-9d71-cbb004a1fb9e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.024577] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'cmake'}
+[0.025701] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'build'}
+[0.026478] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_msgs', '--', '-j12', '-l12'], 'cwd': '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'revanth'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/revanth'), ('OLDPWD', '/home/revanth/NXP_HG3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2368'), ('SYSTEMD_EXEC_PID', '2903'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8756'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'revanth'), ('JOURNAL_STREAM', '8:38341'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'revanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/revanth/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/revanth-XPS-15-7590:@/tmp/.ICE-unix/2883,unix/revanth-XPS-15-7590:/tmp/.ICE-unix/2883'), ('INVOCATION_ID', '5fe84b917ea74b53b42ba5a259098a75'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a46320ff-4206-48f0-9d71-cbb004a1fb9e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.031470] (nxp_1) JobProgress: {'identifier': 'nxp_1', 'progress': 'cmake'}
+[0.034019] (nxp_1) JobProgress: {'identifier': 'nxp_1', 'progress': 'build'}
+[0.034100] (nxp_1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/revanth/NXP_HG3/nxp_ws/build/nxp_1', '--', '-j12', '-l12'], 'cwd': '/home/revanth/NXP_HG3/nxp_ws/build/nxp_1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'revanth'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/revanth'), ('OLDPWD', '/home/revanth/NXP_HG3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2368'), ('SYSTEMD_EXEC_PID', '2903'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8756'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'revanth'), ('JOURNAL_STREAM', '8:38341'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'revanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/revanth/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/revanth-XPS-15-7590:@/tmp/.ICE-unix/2883,unix/revanth-XPS-15-7590:/tmp/.ICE-unix/2883'), ('INVOCATION_ID', '5fe84b917ea74b53b42ba5a259098a75'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a46320ff-4206-48f0-9d71-cbb004a1fb9e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/revanth/NXP_HG3/nxp_ws/build/nxp_1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044327] (apriltag) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/revanth/NXP_HG3/nxp_ws/build/apriltag/CMakeCache.txt is different than the directory /home/revanth/nxp_ws/build/apriltag where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.044740] (nxp_1) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/revanth/NXP_HG3/nxp_ws/build/nxp_1/CMakeCache.txt is different than the directory /home/revanth/nxp_ws/build/nxp_1 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.044882] (apriltag_msgs) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/revanth/NXP_HG3/nxp_ws/build/apriltag_msgs/CMakeCache.txt is different than the directory /home/revanth/nxp_ws/build/apriltag_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.082590] (nxp_1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.086883] (apriltag_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099190] (-) TimerEvent: {}
+[0.199752] (-) TimerEvent: {}
+[0.300375] (-) TimerEvent: {}
+[0.401009] (-) TimerEvent: {}
+[0.501580] (-) TimerEvent: {}
+[0.602198] (-) TimerEvent: {}
+[0.622007] (apriltag_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.622259] (nxp_1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.626204] (apriltag_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.632177] (apriltag_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.690355] (apriltag_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.702298] (-) TimerEvent: {}
+[0.732417] (apriltag_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.732984] (nxp_1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.734090] (nxp_1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.734964] (nxp_1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.737930] (nxp_1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.740034] (nxp_1) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.747806] (nxp_1) StdoutLine: {'line': b'-- Generating done\n'}
+[0.749311] (nxp_1) StdoutLine: {'line': b'-- Build files have been written to: /home/revanth/nxp_ws/build/nxp_1\n'}
+[0.772426] (nxp_1) CommandEnded: {'returncode': 0}
+[0.785560] (apriltag) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.795142] (nxp_1) JobProgress: {'identifier': 'nxp_1', 'progress': 'install'}
+[0.802432] (-) TimerEvent: {}
+[0.803357] (apriltag) StdoutLine: {'line': b'-- Generating done\n'}
+[0.804963] (apriltag) StdoutLine: {'line': b'-- Build files have been written to: /home/revanth/nxp_ws/build/apriltag\n'}
+[0.806156] (nxp_1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/revanth/NXP_HG3/nxp_ws/build/nxp_1'], 'cwd': '/home/revanth/NXP_HG3/nxp_ws/build/nxp_1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'revanth'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/revanth'), ('OLDPWD', '/home/revanth/NXP_HG3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2368'), ('SYSTEMD_EXEC_PID', '2903'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8756'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'revanth'), ('JOURNAL_STREAM', '8:38341'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'revanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/revanth/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/revanth-XPS-15-7590:@/tmp/.ICE-unix/2883,unix/revanth-XPS-15-7590:/tmp/.ICE-unix/2883'), ('INVOCATION_ID', '5fe84b917ea74b53b42ba5a259098a75'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a46320ff-4206-48f0-9d71-cbb004a1fb9e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/revanth/NXP_HG3/nxp_ws/build/nxp_1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.814152] (nxp_1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.814519] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data\n'}
+[0.814757] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_44_38\n'}
+[0.814958] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_44_38/metadata.yaml\n'}
+[0.815047] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_44_38/rosbag2_2022_10_17-10_44_38_0.db3-wal\n'}
+[0.815128] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_44_38/rosbag2_2022_10_17-10_44_38_0.db3\n'}
+[0.815204] (nxp_1) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_44_38/rosbag2_2022_10_17-10_44_38_0.db3-shm\n'}
+[0.815349] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_46_54\n'}
+[0.815529] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_46_54/rosbag2_2022_10_17-10_46_54_0.db3-shm\n'}
+[0.815640] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_46_54/metadata.yaml\n'}
+[0.815806] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_46_54/rosbag2_2022_10_17-10_46_54_0.db3-wal\n'}
+[0.815882] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/data/rosbag2_2022_10_17-10_46_54/rosbag2_2022_10_17-10_46_54_0.db3\n'}
+[0.815956] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/launch\n'}
+[0.816029] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/launch/tag_36h11_all.launch.py\n'}
+[0.816126] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/ament_index/resource_index/package_run_dependencies/nxp_1\n'}
+[0.816290] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/ament_index/resource_index/parent_prefix_path/nxp_1\n'}
+[0.816466] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/environment/ament_prefix_path.sh\n'}
+[0.816564] (nxp_1) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/environment/ament_prefix_path.dsv\n'}
+[0.816784] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/environment/path.sh\n'}
+[0.816939] (nxp_1) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/environment/path.dsv\n'}
+[0.817075] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/local_setup.bash\n'}
+[0.817228] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/local_setup.sh\n'}
+[0.817362] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/local_setup.zsh\n'}
+[0.817440] (nxp_1) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/local_setup.dsv\n'}
+[0.817515] (nxp_1) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/package.dsv\n'}
+[0.817629] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/ament_index/resource_index/packages/nxp_1\n'}
+[0.817758] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/cmake/nxp_1Config.cmake\n'}
+[0.817868] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/cmake/nxp_1Config-version.cmake\n'}
+[0.817944] (nxp_1) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/nxp_1/share/nxp_1/package.xml\n'}
+[0.819659] (nxp_1) CommandEnded: {'returncode': 0}
+[0.836645] (apriltag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag\x1b[0m\n'}
+[0.863383] (apriltag) StdoutLine: {'line': b'[ 80%] Built target apriltag\n'}
+[0.878661] (apriltag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_demo\x1b[0m\n'}
+[0.881426] (apriltag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target opencv_demo\x1b[0m\n'}
+[0.882276] (nxp_1) JobEnded: {'identifier': 'nxp_1', 'rc': 0}
+[0.893315] (apriltag) StdoutLine: {'line': b'[ 90%] Built target apriltag_python\n'}
+[0.899872] (apriltag) StdoutLine: {'line': b'[ 95%] Built target apriltag_demo\n'}
+[0.902556] (-) TimerEvent: {}
+[0.913883] (apriltag) StdoutLine: {'line': b'[100%] Built target opencv_demo\n'}
+[0.935262] (apriltag) CommandEnded: {'returncode': 0}
+[1.002703] (-) TimerEvent: {}
+[1.103175] (-) TimerEvent: {}
+[1.186203] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'install'}
+[1.188656] (apriltag) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag'], 'cwd': '/home/revanth/NXP_HG3/nxp_ws/build/apriltag', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'revanth'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/revanth'), ('OLDPWD', '/home/revanth/NXP_HG3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2368'), ('SYSTEMD_EXEC_PID', '2903'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8756'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'revanth'), ('JOURNAL_STREAM', '8:38341'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'revanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/revanth/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/revanth-XPS-15-7590:@/tmp/.ICE-unix/2883,unix/revanth-XPS-15-7590:/tmp/.ICE-unix/2883'), ('INVOCATION_ID', '5fe84b917ea74b53b42ba5a259098a75'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a46320ff-4206-48f0-9d71-cbb004a1fb9e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.203365] (-) TimerEvent: {}
+[1.213178] (apriltag) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.214124] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag.h\n'}
+[1.215022] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag_math.h\n'}
+[1.215842] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag_pose.h\n'}
+[1.216518] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/debug_print.h\n'}
+[1.217340] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/doubles.h\n'}
+[1.218140] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h\n'}
+[1.218665] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/floats.h\n'}
+[1.219458] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/g2d.h\n'}
+[1.220163] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/getopt.h\n'}
+[1.220805] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/homography.h\n'}
+[1.221251] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_types.h\n'}
+[1.221715] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8.h\n'}
+[1.222291] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8x3.h\n'}
+[1.222935] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8x4.h\n'}
+[1.223424] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/matd.h\n'}
+[1.224216] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/math_util.h\n'}
+[1.224932] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pam.h\n'}
+[1.225464] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pjpeg.h\n'}
+[1.226053] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pnm.h\n'}
+[1.226574] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/postscript_utils.h\n'}
+[1.227034] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pthreads_cross.h\n'}
+[1.227489] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/string_util.h\n'}
+[1.228074] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/svd22.h\n'}
+[1.228541] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/time_util.h\n'}
+[1.229068] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/timeprofile.h\n'}
+[1.229553] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/unionfind.h\n'}
+[1.230013] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/workerpool.h\n'}
+[1.230520] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zarray.h\n'}
+[1.231012] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zhash.h\n'}
+[1.231562] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zmaxheap.h\n'}
+[1.232296] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag16h5.h\n'}
+[1.233003] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag25h9.h\n'}
+[1.234249] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag36h10.h\n'}
+[1.234845] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag36h11.h\n'}
+[1.235387] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCircle21h7.h\n'}
+[1.235919] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCircle49h12.h\n'}
+[1.237376] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCustom48h12.h\n'}
+[1.238696] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagStandard41h12.h\n'}
+[1.241261] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagStandard52h13.h\n'}
+[1.242159] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so.3.3.0\n'}
+[1.243895] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so.3\n'}
+[1.244455] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so\n'}
+[1.245060] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake\n'}
+[1.245585] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake\n'}
+[1.246097] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake\n'}
+[1.246593] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagConfigVersion.cmake\n'}
+[1.247065] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/pkgconfig/apriltag.pc\n'}
+[1.247535] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/.local/lib/python3.10/site-packages/apriltag.cpython-310-x86_64-linux-gnu.so\n'}
+[1.248027] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/bin/opencv_demo\n'}
+[1.248504] (apriltag) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag/bin/apriltag_demo\n'}
+[1.249020] (apriltag) CommandEnded: {'returncode': 0}
+[1.303564] (-) TimerEvent: {}
+[1.404331] (-) TimerEvent: {}
+[1.504757] (-) TimerEvent: {}
+[1.544566] (apriltag_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.546603] (apriltag) JobEnded: {'identifier': 'apriltag', 'rc': 0}
+[1.604921] (-) TimerEvent: {}
+[1.705507] (-) TimerEvent: {}
+[1.806210] (-) TimerEvent: {}
+[1.906973] (-) TimerEvent: {}
+[2.007530] (-) TimerEvent: {}
+[2.108174] (-) TimerEvent: {}
+[2.208833] (-) TimerEvent: {}
+[2.309424] (-) TimerEvent: {}
+[2.340867] (apriltag_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.409643] (-) TimerEvent: {}
+[2.510264] (-) TimerEvent: {}
+[2.610841] (-) TimerEvent: {}
+[2.711402] (-) TimerEvent: {}
+[2.812100] (-) TimerEvent: {}
+[2.912631] (-) TimerEvent: {}
+[3.013244] (-) TimerEvent: {}
+[3.113825] (-) TimerEvent: {}
+[3.214352] (-) TimerEvent: {}
+[3.285438] (apriltag_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.314524] (-) TimerEvent: {}
+[3.357824] (apriltag_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.414671] (-) TimerEvent: {}
+[3.430154] (apriltag_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.430540] (apriltag_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.430780] (apriltag_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.514863] (-) TimerEvent: {}
+[3.541183] (apriltag_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.615073] (-) TimerEvent: {}
+[3.675839] (apriltag_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.684791] (apriltag_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/revanth/nxp_ws/build/apriltag_msgs\n'}
+[3.715281] (-) TimerEvent: {}
+[3.757701] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.785721] (apriltag_msgs) StdoutLine: {'line': b'[  2%] Built target apriltag_msgs__cpp\n'}
+[3.798099] (apriltag_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/point__functions.c.o\x1b[0m\n'}
+[3.800032] (apriltag_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection__functions.c.o\x1b[0m\n'}
+[3.804097] (apriltag_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c.o\x1b[0m\n'}
+[3.815504] (-) TimerEvent: {}
+[3.825731] (apriltag_msgs) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_copy_apriltag_msgs\n'}
+[3.834787] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.836155] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.837232] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.899290] (apriltag_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/point__type_support.cpp.o\x1b[0m\n'}
+[3.903202] (apriltag_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp.o\x1b[0m\n'}
+[3.903999] (apriltag_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/point__type_support.cpp.o\x1b[0m\n'}
+[3.904847] (apriltag_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o\x1b[0m\n'}
+[3.905682] (apriltag_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o\x1b[0m\n'}
+[3.906284] (apriltag_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o\x1b[0m\n'}
+[3.913834] (apriltag_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o\x1b[0m\n'}
+[3.914682] (apriltag_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o\x1b[0m\n'}
+[3.915622] (-) TimerEvent: {}
+[4.016538] (-) TimerEvent: {}
+[4.067467] (apriltag_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking C shared library libapriltag_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.067750] (apriltag_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o\x1b[0m\n'}
+[4.116633] (-) TimerEvent: {}
+[4.135139] (apriltag_msgs) StdoutLine: {'line': b'[ 31%] Built target apriltag_msgs__rosidl_generator_c\n'}
+[4.154026] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.158442] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.179835] (apriltag_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/point__type_support.c.o\x1b[0m\n'}
+[4.182115] (apriltag_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/point__type_support_c.cpp.o\x1b[0m\n'}
+[4.216736] (-) TimerEvent: {}
+[4.246175] (apriltag_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection__type_support.c.o\x1b[0m\n'}
+[4.314895] (apriltag_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c.o\x1b[0m\n'}
+[4.316846] (-) TimerEvent: {}
+[4.383187] (apriltag_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking C shared library libapriltag_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.416947] (-) TimerEvent: {}
+[4.435886] (apriltag_msgs) StdoutLine: {'line': b'[ 44%] Built target apriltag_msgs__rosidl_typesupport_introspection_c\n'}
+[4.454807] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.471967] (apriltag_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/point__type_support.cpp.o\x1b[0m\n'}
+[4.497734] (apriltag_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.498883] (apriltag_msgs) StdoutLine: {'line': b'writing apriltag_msgs.egg-info/PKG-INFO\n'}
+[4.499250] (apriltag_msgs) StdoutLine: {'line': b'writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt\n'}
+[4.499590] (apriltag_msgs) StdoutLine: {'line': b'writing top-level names to apriltag_msgs.egg-info/top_level.txt\n'}
+[4.506351] (apriltag_msgs) StdoutLine: {'line': b"reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'\n"}
+[4.509479] (apriltag_msgs) StdoutLine: {'line': b"writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'\n"}
+[4.517075] (-) TimerEvent: {}
+[4.523377] (apriltag_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o\x1b[0m\n'}
+[4.532658] (apriltag_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o\x1b[0m\n'}
+[4.538105] (apriltag_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.542213] (apriltag_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection__type_support_c.cpp.o\x1b[0m\n'}
+[4.561899] (apriltag_msgs) StdoutLine: {'line': b'[ 55%] Built target ament_cmake_python_build_apriltag_msgs_egg\n'}
+[4.576136] (apriltag_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support_c.cpp.o\x1b[0m\n'}
+[4.588242] (apriltag_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.609738] (apriltag_msgs) StdoutLine: {'line': b'[ 61%] Built target apriltag_msgs__rosidl_typesupport_cpp\n'}
+[4.617178] (-) TimerEvent: {}
+[4.640087] (apriltag_msgs) StdoutLine: {'line': b'[ 63%] Built target apriltag_msgs__rosidl_typesupport_c\n'}
+[4.717285] (-) TimerEvent: {}
+[4.784745] (apriltag_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.791142] (apriltag_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.817393] (-) TimerEvent: {}
+[4.873957] (apriltag_msgs) StdoutLine: {'line': b'[ 70%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.881130] (apriltag_msgs) StdoutLine: {'line': b'[ 72%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.917517] (-) TimerEvent: {}
+[4.987988] (apriltag_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.017648] (-) TimerEvent: {}
+[5.069465] (apriltag_msgs) StdoutLine: {'line': b'[ 76%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.101544] (apriltag_msgs) StdoutLine: {'line': b'[ 76%] Built target apriltag_msgs\n'}
+[5.117834] (-) TimerEvent: {}
+[5.156385] (apriltag_msgs) StdoutLine: {'line': b'[ 78%] Built target apriltag_msgs__py\n'}
+[5.191725] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_generator_py\x1b[0m\n'}
+[5.218052] (-) TimerEvent: {}
+[5.238293] (apriltag_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_point_s.c.o\x1b[0m\n'}
+[5.239796] (apriltag_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_s.c.o\x1b[0m\n'}
+[5.240337] (apriltag_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_array_s.c.o\x1b[0m\n'}
+[5.318228] (-) TimerEvent: {}
+[5.418996] (-) TimerEvent: {}
+[5.519788] (-) TimerEvent: {}
+[5.620521] (-) TimerEvent: {}
+[5.678702] (apriltag_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.720753] (-) TimerEvent: {}
+[5.802005] (apriltag_msgs) StdoutLine: {'line': b'[ 87%] Built target apriltag_msgs__rosidl_generator_py\n'}
+[5.820921] (-) TimerEvent: {}
+[5.834615] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.835251] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.836168] (apriltag_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.878302] (apriltag_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.879195] (apriltag_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.884473] (apriltag_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.921137] (-) TimerEvent: {}
+[6.021763] (-) TimerEvent: {}
+[6.122253] (-) TimerEvent: {}
+[6.154085] (apriltag_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.154338] (apriltag_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.158021] (apriltag_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.193469] (apriltag_msgs) StdoutLine: {'line': b'[100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.193830] (apriltag_msgs) StdoutLine: {'line': b'[100%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.197371] (apriltag_msgs) StdoutLine: {'line': b'[100%] Built target apriltag_msgs__rosidl_typesupport_c__pyext\n'}
+[6.209075] (apriltag_msgs) CommandEnded: {'returncode': 0}
+[6.222358] (-) TimerEvent: {}
+[6.322715] (-) TimerEvent: {}
+[6.423242] (-) TimerEvent: {}
+[6.441329] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'install'}
+[6.443451] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_msgs'], 'cwd': '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'revanth'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/revanth'), ('OLDPWD', '/home/revanth/NXP_HG3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2368'), ('SYSTEMD_EXEC_PID', '2903'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8756'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'revanth'), ('JOURNAL_STREAM', '8:38341'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'revanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/revanth/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/revanth-XPS-15-7590:@/tmp/.ICE-unix/2883,unix/revanth-XPS-15-7590:/tmp/.ICE-unix/2883'), ('INVOCATION_ID', '5fe84b917ea74b53b42ba5a259098a75'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a46320ff-4206-48f0-9d71-cbb004a1fb9e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.465747] (apriltag_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.466327] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs\n'}
+[6.466840] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs\n'}
+[6.467302] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg\n'}
+[6.468323] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h\n'}
+[6.468855] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail\n'}
+[6.469306] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h\n'}
+[6.469674] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h\n'}
+[6.470172] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c\n'}
+[6.470682] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h\n'}
+[6.471211] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h\n'}
+[6.471628] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h\n'}
+[6.471979] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.c\n'}
+[6.472235] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h\n'}
+[6.472648] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h\n'}
+[6.473049] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h\n'}
+[6.473279] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.c\n'}
+[6.473505] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h\n'}
+[6.473866] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.474079] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h\n'}
+[6.474290] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h\n'}
+[6.474846] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh\n'}
+[6.475389] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv\n'}
+[6.475620] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so\n'}
+[6.475850] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs\n'}
+[6.476075] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg\n'}
+[6.476376] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail\n'}
+[6.476644] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h\n'}
+[6.476889] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[6.477115] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[6.477345] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.477633] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.478084] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs\n'}
+[6.478326] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg\n'}
+[6.478554] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail\n'}
+[6.478908] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c\n'}
+[6.479388] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h\n'}
+[6.479905] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.c\n'}
+[6.480330] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.c\n'}
+[6.480737] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h\n'}
+[6.481177] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h\n'}
+[6.481414] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.481644] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.481873] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so\n'}
+[6.482103] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs\n'}
+[6.482409] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg\n'}
+[6.482651] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp\n'}
+[6.482886] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail\n'}
+[6.483280] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp\n'}
+[6.483839] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp\n'}
+[6.484157] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp\n'}
+[6.484419] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp\n'}
+[6.484682] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp\n'}
+[6.484951] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp\n'}
+[6.485291] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp\n'}
+[6.485529] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp\n'}
+[6.485757] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp\n'}
+[6.485990] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp\n'}
+[6.486217] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp\n'}
+[6.486441] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs\n'}
+[6.486669] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg\n'}
+[6.487003] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail\n'}
+[6.487237] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/dds_fastrtps\n'}
+[6.487542] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.487870] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.488101] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.488329] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.488610] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.489004] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs\n'}
+[6.489314] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg\n'}
+[6.489620] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail\n'}
+[6.489848] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp\n'}
+[6.490075] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.490309] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp\n'}
+[6.490648] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.490981] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.491256] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.cpp\n'}
+[6.491569] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.491819] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so\n'}
+[6.492278] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh\n'}
+[6.492793] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv\n'}
+[6.493445] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.0-py3.10.egg-info\n'}
+[6.493694] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.493946] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.494170] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.494412] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.494633] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs\n'}
+[6.494854] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so\n'}
+[6.495097] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.495449] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.495760] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.496026] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg\n'}
+[6.496257] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point_s.c\n'}
+[6.496479] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py\n'}
+[6.496747] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py\n'}
+[6.496971] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py\n'}
+[6.497218] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c\n'}
+[6.497462] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c\n'}
+[6.497687] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py\n'}
+[6.497911] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.498140] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.498358] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.498577] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py\n'}
+[6.523400] (-) TimerEvent: {}
+[6.599505] (apriltag_msgs) StdoutLine: {'line': b"Listing '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...\n"}
+[6.599939] (apriltag_msgs) StdoutLine: {'line': b"Compiling '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py'...\n"}
+[6.600214] (apriltag_msgs) StdoutLine: {'line': b"Listing '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...\n"}
+[6.614544] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.616081] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.617557] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.619206] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so\n'}
+[6.620148] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl\n'}
+[6.620877] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl\n'}
+[6.621467] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl\n'}
+[6.621968] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg\n'}
+[6.622510] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg\n'}
+[6.623011] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg\n'}
+[6.623586] (-) TimerEvent: {}
+[6.623918] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs\n'}
+[6.624325] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs\n'}
+[6.624795] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh\n'}
+[6.625148] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv\n'}
+[6.625374] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh\n'}
+[6.625706] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv\n'}
+[6.626029] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash\n'}
+[6.626246] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh\n'}
+[6.626636] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh\n'}
+[6.626858] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv\n'}
+[6.627213] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv\n'}
+[6.627457] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs\n'}
+[6.627780] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake\n'}
+[6.628090] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.628389] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.628634] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.628869] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.629178] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.629481] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.629700] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.630068] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.630286] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.630501] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.630836] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.631060] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.631283] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.631633] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.631977] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.632323] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.632705] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.633051] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.633374] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.633615] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.633830] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.634046] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.634260] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.634474] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake\n'}
+[6.634687] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake\n'}
+[6.634904] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/package.xml\n'}
+[6.645160] (apriltag_msgs) CommandEnded: {'returncode': 0}
+[6.723783] (-) TimerEvent: {}
+[6.824311] (-) TimerEvent: {}
+[6.924813] (-) TimerEvent: {}
+[7.008322] (apriltag_msgs) JobEnded: {'identifier': 'apriltag_msgs', 'rc': 0}
+[7.011556] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[7.024970] (-) TimerEvent: {}
+[7.039959] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'cmake'}
+[7.042703] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'build'}
+[7.046263] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_ros', '--', '-j12', '-l12'], 'cwd': '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'revanth'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/revanth/nxp_ws/install/apriltag_msgs/lib:/home/revanth/NXP_HG3/nxp_ws/install/apriltag_msgs/lib:/home/revanth/NXP_HG3/nxp_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/revanth'), ('OLDPWD', '/home/revanth/NXP_HG3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2368'), ('SYSTEMD_EXEC_PID', '2903'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8756'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'revanth'), ('JOURNAL_STREAM', '8:38341'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('PKG_CONFIG_PATH', '/home/revanth/NXP_HG3/nxp_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/revanth/NXP_HG3/nxp_ws/install/apriltag/lib/pkgconfig'), ('USERNAME', 'revanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/revanth/NXP_HG3/nxp_ws/install/apriltag/bin:/home/revanth/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/revanth-XPS-15-7590:@/tmp/.ICE-unix/2883,unix/revanth-XPS-15-7590:/tmp/.ICE-unix/2883'), ('INVOCATION_ID', '5fe84b917ea74b53b42ba5a259098a75'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/revanth/nxp_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a46320ff-4206-48f0-9d71-cbb004a1fb9e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/revanth/NXP_HG3/nxp_ws/install/apriltag_msgs:/home/revanth/NXP_HG3/nxp_ws/install/apriltag:/opt/ros/humble')]), 'shell': False}
+[7.070092] (apriltag_ros) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/revanth/NXP_HG3/nxp_ws/build/apriltag_ros/CMakeCache.txt is different than the directory /home/revanth/nxp_ws/build/apriltag_ros where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[7.125166] (-) TimerEvent: {}
+[7.144055] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.225350] (-) TimerEvent: {}
+[7.325872] (-) TimerEvent: {}
+[7.426351] (-) TimerEvent: {}
+[7.526976] (-) TimerEvent: {}
+[7.627646] (-) TimerEvent: {}
+[7.683676] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.691429] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.710096] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.727809] (-) TimerEvent: {}
+[7.745399] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.794395] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.828015] (-) TimerEvent: {}
+[7.917826] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.920134] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.928102] (-) TimerEvent: {}
+[8.028341] (-) TimerEvent: {}
+[8.063581] (apriltag_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.128470] (-) TimerEvent: {}
+[8.228759] (-) TimerEvent: {}
+[8.259103] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[8.328890] (-) TimerEvent: {}
+[8.332733] (apriltag_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.428982] (-) TimerEvent: {}
+[8.487732] (apriltag_ros) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.0 (/home/revanth/nxp_ws/install/apriltag_msgs/share/apriltag_msgs/cmake)\n'}
+[8.529108] (-) TimerEvent: {}
+[8.534951] (apriltag_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[8.629233] (-) TimerEvent: {}
+[8.729573] (-) TimerEvent: {}
+[8.827141] (apriltag_ros) StdoutLine: {'line': b'-- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[8.829670] (-) TimerEvent: {}
+[8.851413] (apriltag_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[8.929804] (-) TimerEvent: {}
+[9.029612] (apriltag_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.029971] (-) TimerEvent: {}
+[9.096909] (apriltag_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[9.102735] (apriltag_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/revanth/nxp_ws/build/apriltag_ros\n'}
+[9.130169] (-) TimerEvent: {}
+[9.179827] (apriltag_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target utils\x1b[0m\n'}
+[9.185292] (apriltag_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_node\x1b[0m\n'}
+[9.220435] (apriltag_ros) StdoutLine: {'line': b'[ 33%] Built target utils\n'}
+[9.230307] (-) TimerEvent: {}
+[9.259344] (apriltag_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_node.dir/rclcpp_components/node_main_apriltag_node.cpp.o\x1b[0m\n'}
+[9.266674] (apriltag_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target AprilTagNode\x1b[0m\n'}
+[9.330469] (-) TimerEvent: {}
+[9.357866] (apriltag_ros) StdoutLine: {'line': b'[ 83%] Built target AprilTagNode\n'}
+[9.430682] (-) TimerEvent: {}
+[9.531236] (-) TimerEvent: {}
+[9.631769] (-) TimerEvent: {}
+[9.732310] (-) TimerEvent: {}
+[9.832804] (-) TimerEvent: {}
+[9.933319] (-) TimerEvent: {}
+[10.033917] (-) TimerEvent: {}
+[10.134546] (-) TimerEvent: {}
+[10.235112] (-) TimerEvent: {}
+[10.335602] (-) TimerEvent: {}
+[10.435978] (-) TimerEvent: {}
+[10.536324] (-) TimerEvent: {}
+[10.636796] (-) TimerEvent: {}
+[10.737061] (-) TimerEvent: {}
+[10.837358] (-) TimerEvent: {}
+[10.937612] (-) TimerEvent: {}
+[11.037894] (-) TimerEvent: {}
+[11.138168] (-) TimerEvent: {}
+[11.238437] (-) TimerEvent: {}
+[11.338735] (-) TimerEvent: {}
+[11.439024] (-) TimerEvent: {}
+[11.539343] (-) TimerEvent: {}
+[11.639610] (-) TimerEvent: {}
+[11.739866] (-) TimerEvent: {}
+[11.840194] (-) TimerEvent: {}
+[11.940475] (-) TimerEvent: {}
+[12.041005] (-) TimerEvent: {}
+[12.141278] (-) TimerEvent: {}
+[12.241584] (-) TimerEvent: {}
+[12.341851] (-) TimerEvent: {}
+[12.442099] (-) TimerEvent: {}
+[12.542434] (-) TimerEvent: {}
+[12.642727] (-) TimerEvent: {}
+[12.743076] (-) TimerEvent: {}
+[12.843456] (-) TimerEvent: {}
+[12.943836] (-) TimerEvent: {}
+[13.044182] (-) TimerEvent: {}
+[13.119205] (apriltag_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable apriltag_node\x1b[0m\n'}
+[13.144318] (-) TimerEvent: {}
+[13.244743] (-) TimerEvent: {}
+[13.345300] (-) TimerEvent: {}
+[13.446026] (-) TimerEvent: {}
+[13.488891] (apriltag_ros) StdoutLine: {'line': b'[100%] Built target apriltag_node\n'}
+[13.506689] (apriltag_ros) CommandEnded: {'returncode': 0}
+[13.546213] (-) TimerEvent: {}
+[13.587436] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'install'}
+[13.589726] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_ros'], 'cwd': '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'revanth'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/revanth/nxp_ws/install/apriltag_msgs/lib:/home/revanth/NXP_HG3/nxp_ws/install/apriltag_msgs/lib:/home/revanth/NXP_HG3/nxp_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/revanth'), ('OLDPWD', '/home/revanth/NXP_HG3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2368'), ('SYSTEMD_EXEC_PID', '2903'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8756'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'revanth'), ('JOURNAL_STREAM', '8:38341'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('PKG_CONFIG_PATH', '/home/revanth/NXP_HG3/nxp_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/revanth/NXP_HG3/nxp_ws/install/apriltag/lib/pkgconfig'), ('USERNAME', 'revanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/revanth/NXP_HG3/nxp_ws/install/apriltag/bin:/home/revanth/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/revanth-XPS-15-7590:@/tmp/.ICE-unix/2883,unix/revanth-XPS-15-7590:/tmp/.ICE-unix/2883'), ('INVOCATION_ID', '5fe84b917ea74b53b42ba5a259098a75'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/revanth/nxp_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a46320ff-4206-48f0-9d71-cbb004a1fb9e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/revanth/NXP_HG3/nxp_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/revanth/nxp_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/revanth/NXP_HG3/nxp_ws/install/apriltag_msgs:/home/revanth/NXP_HG3/nxp_ws/install/apriltag:/opt/ros/humble')]), 'shell': False}
+[13.612098] (apriltag_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.613693] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node\n'}
+[13.614861] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh\n'}
+[13.615480] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv\n'}
+[13.616846] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/lib/libAprilTagNode.so\n'}
+[13.617703] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cfg\n'}
+[13.618219] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml\n'}
+[13.618778] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/launch\n'}
+[13.619176] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/launch/tag_36h11_all.launch.py\n'}
+[13.619724] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros\n'}
+[13.620164] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros\n'}
+[13.620758] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh\n'}
+[13.621270] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv\n'}
+[13.621850] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh\n'}
+[13.622366] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv\n'}
+[13.622799] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash\n'}
+[13.623351] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh\n'}
+[13.623826] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh\n'}
+[13.624185] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv\n'}
+[13.624542] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/package.dsv\n'}
+[13.624936] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros\n'}
+[13.625331] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros\n'}
+[13.625690] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake\n'}
+[13.626048] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake\n'}
+[13.626432] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/revanth/nxp_ws/install/apriltag_ros/share/apriltag_ros/package.xml\n'}
+[13.633930] (apriltag_ros) CommandEnded: {'returncode': 0}
+[13.646380] (-) TimerEvent: {}
+[13.746943] (-) TimerEvent: {}
+[13.809982] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 0}
+[13.812553] (-) EventReactorShutdown: {}

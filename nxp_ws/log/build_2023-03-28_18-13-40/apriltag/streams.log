@@ -1,0 +1,66 @@
+[0.022s] Invoking command in '/home/revanth/NXP_HG3/nxp_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/revanth/NXP_HG3/nxp_ws/build/apriltag -- -j12 -l12
+[0.044s] [0mCMake Error: The current CMakeCache.txt directory /home/revanth/NXP_HG3/nxp_ws/build/apriltag/CMakeCache.txt is different than the directory /home/revanth/nxp_ws/build/apriltag where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.786s] -- Configuring done
+[0.803s] -- Generating done
+[0.805s] -- Build files have been written to: /home/revanth/nxp_ws/build/apriltag
+[0.837s] [35m[1mConsolidate compiler generated dependencies of target apriltag[0m
+[0.863s] [ 80%] Built target apriltag
+[0.879s] [35m[1mConsolidate compiler generated dependencies of target apriltag_demo[0m
+[0.881s] [35m[1mConsolidate compiler generated dependencies of target opencv_demo[0m
+[0.893s] [ 90%] Built target apriltag_python
+[0.900s] [ 95%] Built target apriltag_demo
+[0.914s] [100%] Built target opencv_demo
+[0.936s] Invoked command in '/home/revanth/NXP_HG3/nxp_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/revanth/NXP_HG3/nxp_ws/build/apriltag -- -j12 -l12
+[1.190s] Invoking command in '/home/revanth/NXP_HG3/nxp_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/revanth/NXP_HG3/nxp_ws/build/apriltag
+[1.213s] -- Install configuration: "Release"
+[1.214s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag.h
+[1.215s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag_math.h
+[1.216s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/apriltag_pose.h
+[1.217s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/debug_print.h
+[1.218s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/doubles.h
+[1.218s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[1.219s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/floats.h
+[1.220s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/g2d.h
+[1.220s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/getopt.h
+[1.221s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/homography.h
+[1.221s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_types.h
+[1.222s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8.h
+[1.223s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8x3.h
+[1.223s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/image_u8x4.h
+[1.224s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/matd.h
+[1.225s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/math_util.h
+[1.225s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pam.h
+[1.226s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pjpeg.h
+[1.226s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pnm.h
+[1.227s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/postscript_utils.h
+[1.227s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/pthreads_cross.h
+[1.228s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/string_util.h
+[1.228s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/svd22.h
+[1.229s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/time_util.h
+[1.229s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/timeprofile.h
+[1.230s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/unionfind.h
+[1.230s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/workerpool.h
+[1.231s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zarray.h
+[1.231s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zhash.h
+[1.232s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/common/zmaxheap.h
+[1.233s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag16h5.h
+[1.234s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag25h9.h
+[1.234s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag36h10.h
+[1.235s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tag36h11.h
+[1.235s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCircle21h7.h
+[1.236s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCircle49h12.h
+[1.238s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagCustom48h12.h
+[1.241s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagStandard41h12.h
+[1.242s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/include/apriltag/tagStandard52h13.h
+[1.243s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so.3.3.0
+[1.244s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so.3
+[1.245s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/libapriltag.so
+[1.245s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+[1.246s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+[1.246s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+[1.247s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/share/apriltag/cmake/apriltagConfigVersion.cmake
+[1.247s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/lib/pkgconfig/apriltag.pc
+[1.248s] -- Up-to-date: /home/revanth/.local/lib/python3.10/site-packages/apriltag.cpython-310-x86_64-linux-gnu.so
+[1.248s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/bin/opencv_demo
+[1.249s] -- Up-to-date: /home/revanth/nxp_ws/install/apriltag/bin/apriltag_demo
+[1.250s] Invoked command in '/home/revanth/NXP_HG3/nxp_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/revanth/NXP_HG3/nxp_ws/build/apriltag
