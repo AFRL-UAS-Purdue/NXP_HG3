@@ -1,5 +1,7 @@
 # Bosch BME688 Gas Sensor
 
+This directory contains all the code and materials worked on for the Bosch BME 688 gas sensor.
+
 ## Required Hardware
 Raspberry Pi Pico
 BME688 breakout board
@@ -18,8 +20,6 @@ Micro SD breakout board MISO to Pico GP2 (Pin 4)
 Micro SD breakout board MOSI to Pico GP3 (Pin 5)
 Micro SD breakout board SCK to Pico GP6 (Pin 9)
 Micro SD breakout board CS to Pico GP7 (Pin 10)
-
-This directory contains all the code and materials worked on for the Bosch BME 688 gas sensor.
 
 # getEnviData.py
 This Micropython code reads temperature, humidity, pressure, and CO2 data from a BME688 sensor every second and saves it, along with a timestamp, to a file called "enviData.csv" on a micro SD card.
