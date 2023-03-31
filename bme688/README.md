@@ -8,17 +8,17 @@ BME688 breakout board
 Micro SD card breakout board
 
 ## Pin Connections
-BME688 VIN to Pico 3V3 (Pin 36)
-BME688 GND to Pico GND (Pin 38)
-BME688 SCK to Pico GP10 (Pin 14)
-BME688 SDO to Pico GP11 (Pin 15)
-BME688 SDI to Pico GP12 (Pin 16)
-BME688 CS to Pico GP13 (Pin 17)
-Micro SD breakout board GND to Pico GND (Pin 38)
-Micro SD breakout board VCC to Pico 3V3 (Pin 36)
-Micro SD breakout board MISO to Pico GP2 (Pin 4)
-Micro SD breakout board MOSI to Pico GP3 (Pin 5)
-Micro SD breakout board SCK to Pico GP6 (Pin 9)
+BME688 VIN to Pico 3V3 (Pin 36) \
+BME688 GND to Pico GND (Pin 38) \
+BME688 SCK to Pico GP10 (Pin 14) \
+BME688 SDO to Pico GP11 (Pin 15) \
+BME688 SDI to Pico GP12 (Pin 16) \
+BME688 CS to Pico GP13 (Pin 17) \
+Micro SD breakout board GND to Pico GND (Pin 38) \
+Micro SD breakout board VCC to Pico 3V3 (Pin 36) \
+Micro SD breakout board MISO to Pico GP2 (Pin 4) \
+Micro SD breakout board MOSI to Pico GP3 (Pin 5) \
+Micro SD breakout board SCK to Pico GP6 (Pin 9) \
 Micro SD breakout board CS to Pico GP7 (Pin 10)
 
 # getEnviData.py
